@@ -276,6 +276,14 @@
 	footer p {
 		padding: 5px 0;
 	}
+
+	.polit .container .soglas {
+		font-size: 14px;
+	}
+
+	.video {
+		height: 420px;
+	}
 }
 
 /* md */
@@ -302,6 +310,11 @@
 
 	.garant__title h2 {
 		font-size: 40px;
+	}
+
+	.video {
+		padding: 50px 0;
+		height: 360px;
 	}
 }
 
@@ -365,6 +378,15 @@
 	a.head__tel {
 		margin: 0;
 	}
+
+	.polit .container .soglas {
+		white-space: normal;
+		font-size: 13px;
+	}
+
+	.polit .container .soglas br {
+		display: none;
+	}
 }
 
 /* xs */
@@ -415,8 +437,6 @@
 		margin-bottom: 15px;
 	}
 
-	.problem__title_upp {}
-
 	.problem__title h2 {
 		font-size: 19px;
 	}
@@ -453,5 +473,35 @@
 
 	form.form-footer {
 		width: 100%;
+	}
+
+	.polit .container .title-call br {
+		display: none;
+	}
+
+	.polit .container .title-call {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.polit .form-footer_title {
+		font-size: 16px;
+	}
+
+	.polit .container .form-footer_button {
+		width: 100%;
+		padding: 0;
+	}
+
+	.polit .container .soglas {
+		font-size: 12px;
+	}
+
+	div#video .container {
+		padding: 0;
+	}
+
+	.video {
+		height: 260px;
 	}
 }
