@@ -35,7 +35,7 @@ jQuery(document).ready(function($){
 });
 
 jQuery(document).ready(function($){
-	$(".head__list").on("click","a", function (event) {
+	$(".head__nav").on("click","a", function (event) {
 		event.preventDefault();
 		var id  = $(this).attr('href'),
 		top = $(id).offset().top - 100;

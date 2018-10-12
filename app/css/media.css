@@ -254,6 +254,7 @@
 		width: 100%;
 		margin-bottom: 80px;
 		margin-top: 0;
+		display: none;
 	}
 
 	.mapp {
@@ -503,5 +504,13 @@
 
 	.video {
 		height: 260px;
+	}
+
+	header.head {
+		padding: 15px 0;
+	}
+
+	section.home {
+		padding-top: 80px;
 	}
 }
